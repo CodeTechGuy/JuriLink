@@ -47,9 +47,9 @@ It aims to solve the problem of disorganized legal resources and inefficient cli
 
 -----
 
-<img width="472" height="662" alt="Image" src="https://github.com/user-attachments/assets/ee11ea2d-783c-4f7b-9d57-779dad48cfb9" />
+<img width="440" height="642" alt="Image" src="https://github.com/user-attachments/assets/ee11ea2d-783c-4f7b-9d57-779dad48cfb9" />
 
-<img width="472" height="662" alt="Image" src="https://github.com/user-attachments/assets/53f378ad-fb2b-45ae-9544-34ba50116df6" />
+<img width="440" height="642" alt="Image" src="https://github.com/user-attachments/assets/53f378ad-fb2b-45ae-9544-34ba50116df6" />
 
 <img width="3131" height="1755" alt="Image" src="https://github.com/user-attachments/assets/cccc2839-e1ba-48d9-86a1-250141fb340c" />
 
