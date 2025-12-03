@@ -5,7 +5,7 @@
 
 ### Project Overview
 
-**JuriLink** is a centralized **resource management tool** for organizing and cross-referencing legal statutes, judgments, and academic articles.
+**JuriLink** is a centralized **incentive based tool** for onboarding Legal service providers with expertise in different fields.
 
 It aims to solve the problem of disorganized resources and inefficient cross-referencing during legal research by providing a searchable, intuitive platform that simplifies collaboration and ensures fast access to **authoritative jurisdictional links**.
 
@@ -41,7 +41,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 You will need the following software installed:
 
   * **Language/Runtime**: Node.js - v18.x or later
-  * **Database**: MongoDB - Recommended for local development
+  * **Database**: NeonDB 
+  * **Video Call Api**: Vonage
   * **Other tool**: Git
 
 #### Installation
@@ -65,16 +66,26 @@ You will need the following software installed:
 
     ```
     # Example .env content
-    PORT=3000
-    MONGO_URI=mongodb://127.0.0.1:27017/jurilink_db
-    JWT_SECRET=YOUR_SECURE_SECRET_KEY
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= [YOUR_KEY]
+    CLERK_SECRET_KEY= [YOUR_SECRET_KEY]
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+
+    NEXT_PUBLIC_VONAGE_APPLICATION_ID= [VIDEO_CALL_API]
+    VONAGE_PRIVATE_KEY=lib/private.key
+
+    DATABASE_URL= [DATABASE_STRING]
+
+
     ```
 
 4.  **Run the application**:
 
     ```bash
     # This command typically runs both the backend server and starts the frontend client.
-    npm start
+    npm run dev
     ```
 
     The application should now be running locally at `http://localhost:3000`.
@@ -85,9 +96,9 @@ You will need the following software installed:
 
 | Category | Technology |
 | :--- | :--- |
-| **Frontend Framework/Library** | React |
-| **Backend Framework/Library** | Express.js |
-| **Database** | MongoDB |
+| **Frontend Framework/Library** | React , Next.js |
+| **Backend Framework/Library** | Express.js , Node |
+| **Database** | NeonDB |
 | **Styling/CSS Framework** | Tailwind CSS |
 
 -----
@@ -108,7 +119,7 @@ We welcome contributions\! If you have suggestions for improvement, please fork 
 
 ### 📧 Contact
 
-CodeTechGuy - codetechguy@example.com
+
 Project Link: [https://github.com/CodeTechGuy/JuriLink](https://github.com/CodeTechGuy/JuriLink)
 
-Created by CodeTechGuy as part of a personal/team project.
+Created by VISHAL PRAJWAL S as part of a Capstone project.
