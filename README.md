@@ -1,15 +1,41 @@
 # Full Stack Lawyers Appointment Platform with Next JS, Neon, Tailwind, Vonage, Shadcn UI Tutorial 🔥🔥
 
 
-## JuriLink ⚖️
+# JuriLink ⚖️
 
-### Project Overview
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Node](https://img.shields.io/badge/Node-v18%2B-success)
+![NeonDB](https://img.shields.io/badge/Database-NeonDB-green)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue)
+![Next JS](https://img.shields.io/badge/Next.js-Black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Clerk](https://img.shields.io/badge/Auth-Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
+![Vonage Video](https://img.shields.io/badge/Video%20API-Vonage-F21E3E?style=for-the-badge&logo=vonage&logoColor=white)
 
-**JuriLink** is a centralized **incentive based tool** for onboarding Legal service providers with expertise in different fields.
+---
 
-It aims to solve the problem of disorganized resources and inefficient cross-referencing during legal research by providing a searchable, intuitive platform that simplifies collaboration and ensures fast access to **authoritative jurisdictional links**.
+## 📚 Table of Contents
+- [Project Overview](#-project-overview)
+- [Key Features](#-key-features)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Run the Application](#run-the-application)
+- [Built With](#️-built-with)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
------
+---
+
+## ⚖️ Project Overview
+**JuriLink** is a centralized **online appointment booking platform** connecting clients directly with legal service providers.
+
+It aims to solve the problem of disorganized legal resources and inefficient client-provider matching by offering a searchable, intuitive platform that simplifies collaboration and ensures fast access to authoritative jurisdictional links and **streamlines the appointment scheduling process**.
+
+---
+
 
 ### ✨ Key Features
 
