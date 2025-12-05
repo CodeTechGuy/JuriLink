@@ -14,7 +14,9 @@
 ![Vonage Video](https://img.shields.io/badge/Video%20API-Vonage-F21E3E?style=for-the-badge&logo=vonage&logoColor=white)
 
 ---
+** Live Working Link ** : `https://juri-link.vercel.app/`
 
+---
 ## 📚 Table of Contents
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
